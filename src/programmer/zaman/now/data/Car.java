@@ -8,5 +8,9 @@ public interface Car extends HasBrand, IsMaintenance{
 
     int getTire();
 
-
+    // konkrit method
+    // otomatis semua turunannya tidak wajib mengoverride method ini
+    default boolean isBig(){
+      return false;
+    };
 }
