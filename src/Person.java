@@ -6,17 +6,19 @@ public class Person {
     final String country = "Indonesia";
 
     // contructor adalah method yg akan dipanggil ketika pertama kali object dibuat
-    Person(String paramName, String paramAddress){
-        name = paramName;
-        address = paramAddress;
+
+    // penggunaan this merujuk ke attribute
+    Person(String name, String address){
+        this.name = name;
+        this.address = name;
     }
 
     // contructor overloading
 
     // contructor memanggil contructor yg lain
     // person(paramName) memanggil person utama
-    Person(String paramName){
-        this(paramName, null);
+    Person(String name){
+        this(name, null);
     }
 
     // person memanggil person(paramName)
@@ -25,7 +27,7 @@ public class Person {
     }
 
     // menggunakan void karena tidak mengembalikan data apapun (return)
-    void sayHello(String paramName){
-        System.out.println("Hello " + paramName + ", My Name is " + name);
+    void sayHello(String name){
+        System.out.println("Hello " + name + ", My Name is " + this.name);
     }
 }
