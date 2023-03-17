@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc35a585-cc69-4b8a-9512-f8424a74e80a" name="Changes" comment="" />
+    <list default="true" id="cc35a585-cc69-4b8a-9512-f8424a74e80a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/programmer/zaman/now/data/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmer/zaman/now/data/Product.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679011925455</updated>
       <workItem from="1679011926645" duration="7825000" />
-      <workItem from="1679037099157" duration="1125000" />
+      <workItem from="1679037099157" duration="1653000" />
     </task>
     <servers />
   </component>

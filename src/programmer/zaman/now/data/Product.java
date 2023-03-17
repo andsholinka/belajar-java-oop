@@ -1,10 +1,11 @@
 package programmer.zaman.now.data;
 
-class Product {
-    String name;
-    int price;
+public class Product {
+    // protected hanya bisa diakses di dalam package yg sama (data)
+    public String name;
+    public int price;
 
-    Product(String name, int price){
+    public Product(String name, int price){
         this.name = name;
         this.price = price;
     }
