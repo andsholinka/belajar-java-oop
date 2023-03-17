@@ -5,8 +5,8 @@ public class ManagerApp {
 //        manager.name = "Andrey";
         manager.sayHello("Enzo");
 
-        var vp = new VicePresident();
-        vp.name = "Sholinka";
+        var vp = new VicePresident("Sholinka");
+//        vp.name = "Sholinka";
         vp.sayHello("Enzo");
     }
 }
