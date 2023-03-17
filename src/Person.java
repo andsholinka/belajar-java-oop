@@ -11,6 +11,15 @@ public class Person {
         address = paramAddress;
     }
 
+    // contructor overloading
+    Person(String paramName){
+        name = paramName;
+    }
+
+    Person(){
+
+    }
+
     // menggunakan void karena tidak mengembalikan data apapun (return)
     void sayHello(String paramName){
         System.out.println("Hello " + paramName + ", My Name is " + name);
