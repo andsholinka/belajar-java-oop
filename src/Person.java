@@ -12,12 +12,16 @@ public class Person {
     }
 
     // contructor overloading
+
+    // contructor memanggil contructor yg lain
+    // person(paramName) memanggil person utama
     Person(String paramName){
-        name = paramName;
+        this(paramName, null);
     }
 
+    // person memanggil person(paramName)
     Person(){
-
+        this(null);
     }
 
     // menggunakan void karena tidak mengembalikan data apapun (return)
