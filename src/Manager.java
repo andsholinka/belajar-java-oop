@@ -1,4 +1,4 @@
-class Manager {
+class Manager extends Employee {
 
     Manager(){
         // default constuctor penting agar memudahkan ketika ada class child yg ingin extend parent
@@ -6,9 +6,9 @@ class Manager {
     }
 
     Manager(String name){
-        this.name = name;
+        super(name);
     }
-    String name;
+
     void sayHello(String name){
         System.out.println("Hi "+ name + ", My Name is Manager "+ this.name);
     }
