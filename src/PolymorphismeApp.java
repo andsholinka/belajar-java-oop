@@ -1,4 +1,6 @@
 public class PolymorphismeApp {
+    // polymorphism adalah kemampuan sebuah object berubah bentuk menjadi object lain
+    // erat hubungannya dengan inheritance
     public static void main(String[] args) {
 
         Employee employee = new Employee("Andrey");
