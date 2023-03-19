@@ -4,12 +4,16 @@ public class SocialMedia {
     String name;
 }
 
-final class Facebook extends SocialMedia {
+class Facebook extends SocialMedia {
+    final void login(String username, String password) {
 
+    }
 }
 
-// error - final class tidak bisa diturunkan
+class FakeFacebook extends Facebook{
 
-//class FakeFacebook extends Facebook{
+    // final method - tidak bisa di ovveride oleh turunannya
+//    void login(String username, String password) {
 //
-//}
+//    }
+}
