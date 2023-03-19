@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc35a585-cc69-4b8a-9512-f8424a74e80a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/application/StaticApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/data/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/data/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/data/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmer/zaman/now/util/MathUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc35a585-cc69-4b8a-9512-f8424a74e80a" name="Changes" comment="static field" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,11 +54,15 @@
       <workItem from="1679011926645" duration="7825000" />
       <workItem from="1679037099157" duration="7800000" />
       <workItem from="1679095471906" duration="1517000" />
-      <workItem from="1679266683147" duration="3085000" />
+      <workItem from="1679266683147" duration="3410000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="static field" />
+    <option name="LAST_COMMIT_MESSAGE" value="static field" />
   </component>
 </project>
