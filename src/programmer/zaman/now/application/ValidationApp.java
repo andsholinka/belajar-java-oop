@@ -17,5 +17,8 @@ public class ValidationApp {
                 // contohnya untuk menutup connection
 //            System.out.println("Selalu di eksekusi");
 //        }
+
+//        LoginRequest loginRequest2 = new LoginRequest(null, password);
+//        ValidationUtil.validateRuntime(loginRequest2);
     }
 }
